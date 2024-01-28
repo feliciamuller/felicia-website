@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,10 +20,101 @@
                 <li><a href = "cv.html">CV</a></li>
                 <li><a href = "portfolio.html">Portfolio</a></li>
                 <li><a href = "contact.html">Kontaktuppgifter</a></li>
+                <li><a href = "wcag.html">Webbriktlinjer</a></li>
             </ul>
         </nav>
         <main>
-            <p>Webbriktlinjer</p>
+            <div class ="web-guidelines">
+                <section>
+                    <h3>Ange i kod vad sidans olika delar har för roll</h3>
+                    <p> Jag har döpt sidorna i min html-fil så det framgår tydligt vad de har för roll. 
+                    Jag har även använt semantiska taggar för att visa vad varje del är för typ av text. </p>
+                    <h3>Ange sidans språk i koden</h3>
+                    <p>Jag har använt <i>html lang="sv"</i> i koden som visar att sidan är på svenska.</p>
+                    <h3>Ange språkförändringar i koden</h3>
+                    <p>Inte tillämpart på denna sida då jag inte har några språkförändringar i min kod, allting är på svenska. </p>
+                    <h3>Använd inte enbart färg för att förmedla information</h3>
+                    <p>Jag har förmedlat information genom att ha olika storlekar på text, olika typsnitt, tjock text på rubrik.
+                    När man hovrar över länkar blir det tjockare text som förmedlar att det är en länk. 
+                    Sidan fungerar lika bra utan färg som med färg.</p>
+                    <h3>Använd tillräcklig kontrast mellan text och bakgrund</h3>
+                    <p>Jag har använt ljusa bakgrunder och mörka texter för att det ska vara lätt att läsa.</p>
+                    <h3>Använd tillräckliga kontraster i komponenter och grafik</h3>
+                    <p>I min navigationsbar har jag mörkt text mot ljus bakgrund som gör det tydligt att se texten.
+                    När man hovrar över är kontrasten fortfarande bra eftersom jag använder mig av en ljus bakgrund även där. 
+                    Kontrasten blir också ännu tydligare då texten blir tjockare.
+                    Bakgrundsbilden och bilden på mig själv har tydlig kontrast till varandra.
+                    Jag har använt en LinkedIn-logotyp som är blå mot ljus bakgrund så kontasten är tillräcklig även där. </p>
+                    <h3>Erbjud alternativ till komplexa fingerrörelser</h3>
+                    <p>Inte tillämpbart på denna hemsida. Men det är fullt möjligt att läsa av och bläddra på sidan med ett finger om man använder en skärm. 
+                    Sidan har responsiv design som gör att det är fokus på texten och du ska inte behöva zooma för att se vad det står.</p>
+                    <h3>Erbjud möjlighet att hoppa förbi återkommande innehåll</h3>
+                    <p>Jag har använt h-taggar för rubriker som gör att användaren kan hoppa till dessa taggar för att läsa innehållet under rubriken direkt. 
+                    Navigationsbaren är också alltid synlig på alla sidor så det är enkelt att hoppa tillbaka till Hem om man vill det.</p>
+                    <h3>Ge användaren möjlighet att pausa, stänga av eller sänka ljud</h3>
+                    <p>Inte tillämpbart då det inte finns något ljud.</p>
+                    <h3>Ge användarna möjlighet att justera tidsbegränsningar</h3>
+                    <p>Inte tillämpbart då det inte finns något som har en tidsbegränsning.</p>
+                    <h3>Ge användarna möjlighet att pausa eller stänga av rörelser</h3>
+                    <p>Inte tillämpbart då det inte finns rörelser.</p>                
+                    <h3>Ge förslag på hur fel kan rättas till</h3>
+                    <p>Inte tillämpbart då det inte finns någon inmatning etc som gör att något kan gå fel.</p>
+                    <h3>Ge möjlighet att ångra, korrigera eller bekräfta vid viktiga transaktioner</h3>
+                    <p>Inte tillämpbart då det inte finns möjlighet att skicka transaktioner.</p>
+                    <h3>Gör det möjligt att ångra klick</h3>
+                    <p>Inte tillämpbart då det inte finns möjlighet att klicka och skicka iväg något. </p>
+                    <h3>Gör en logisk tab-ordning</h3>
+                    <p>När man tabbar på sidan är det i en logisk ordning. Man tabbar sig igenom menyn först och när man väl klickar in sig på en undersida så 
+                    fortsätter det vara i logisk ording från vänster till höger.</p>
+                    <h3>Markera tydligt vilket fält eller element som är i fokus</h3>
+                    <p>På navbaren när man hovrar över byter den färg jämfört med dom andra och det gör det tydligt vart man är med muspekaren. Om man tabbar sig blir det också tydliga 
+                    rutor runt navigeringsbaren och runt knappar.</p>
+                    <h3>Märk upp vanliga formulärfält i koden</h3>
+                    <p>Inte tillämpbart då det inte finns formulärfält i koden</p>
+                    <h3>Popup-funktioner ska kunna hanteras och stängas av alla</h3>
+                    <p>Pop-up funktionerna fungerar både att stänga ned med hjälp av att man klickar med musen, eller tabbar sig till att kryssa ned. Det är också tydligt 
+                    eftersom att muspekaren ändrar utseende när krysset är klickbart.</p>
+                    <h3>Presentera innehållet i en meningsfull ordning för alla</h3>
+                    <p>Innehållet presenteras i logisk ordning och när det kommer en pop-up så hamnar den i fokus och när man stänger
+                    fönstret så återgår fokus till det som var innan. När man tabbar sig igenom hemsidan blir det också i logisk ordning.
+                    </p>
+                    <h3>Se till att allt innehåll presenteras rätt oavsett skärmens riktning</h3>
+                    <p>Genom att jag använt responsiv design så presenteras innehållet rätt oavsett vilken riktning man har på skärmen.</p>
+                    <h3>Se till att det går att öka avstånd mellan tecken, rader, stycken och ord</h3>
+                    <p>I och med att jag använt mig av responsiv design så som CSS grid och flexbox blir det möjligt att öka storleken på texten utan att det överlappar något annat.</p>
+                    <h3>Se till att hjälpmedel kan presentera meddelanden som inte är i fokus</h3>
+                    <p>Inte tillämpbart då det inte finns några meddelanden eller varningar som presenteras på hemsidan. </p>
+                    <h3>Se till att koden validerar</h3>
+                    <p>Jag har validerat koden på W3C och det ser bra ut.</p>
+                    <h3>Se till att markören inte fastnar vid tangentbordsnavigation</h3>
+                    <p>Det går bra att navigera sig på hemsidan med endast tangentbord och man fastnar ingenstans.</p>
+                    <h3>Se till att skräddarsydda komponenter fungerar i hjälpmedel</h3>
+                    <p>Har testat med skärmuppläsning och den fungerar utmärkt på hemsidan. 
+                    Jag har använt semantisk kodning och när man inspekterar koden i en webbläsare ser man strukturen tydligt och det hjälper skrämläsaren att förstå syftet.
+                    Jag har använt mig av alternativa texter för bilder så det kan läsas upp istället om man inte ser bilden.</p>
+                    <h3>Se till att text går att förstora utan problem</h3>
+                    <p>Det går utmärkt att förstora texten på hemsidan och eftersom den är responsiv så anpassar sig hemsidan så layouten ser snygg ut även när man zoomar. 
+                    Det går lika bra att zooma på en skärm med. </p>
+                    <h3>Se till att text på knappar och kontroller överensstämmer med maskinläsbara etiketter</h3>
+                    <p>Knapparna jag använt mig av har logiska namn som Läs mer och jag håller mig till samma namn på alla knappar 
+                    för att det ska vara enkelt att förstå och det fungerar när man gör skärmläsning.</p>
+                    <h3>Skapa en flexibel layout som fungerar vid förstoring eller liten skärm</h3>
+                    <p>Layouten anpassar sig genom att jag använt responsiv design i min kod med hjälp av media querys.</p>
+                    <h3>Skapa kortkommandon med varsamhet</h3>
+                    <p>Denna hemsida har inga speciella kortkommandon</p>
+                    <h3>Skapa tydliga och klickbara fältetiketter/ledtexter</h3>
+                    <p>Inte tillämpbart då det inte finns några fält att fylla i.</p>
+                    <h3>Utför inga oväntade förändringar vid fokusering</h3>
+                    <p>Det finns inga oväntade förändringar vid fokusering på denna hemsida.</p>
+                    <h3>Utför inga oväntade förändringar vid inmatning</h3>
+                    <p>Inte tillämpbart på denna hemsida då det inte finns någon inmatning.</p>
+                    <h3>Utveckla systemet så att det går att hantera med enbart tangentbordet</h3>
+                    <p>Det går bra att navigera med enbart tangentbordet, det finns inga krav att användaren ska behöva göra en viss rörelse, dra något, 
+                    eller göra något annat som inte går med tangentbordet.</p>
+                    <h3>Visa var ett fel uppstått och beskriv det tydligt</h3>
+                    <p>Det finns inget formurlär eller liknande som gör att användaren kan göra felaktig inmatning, därav finns det inget felmeddelande som behöver visas.</p>
+                </section>
+            </div>
         </main>
     </header>
     <footer>
